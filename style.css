@@ -1,0 +1,111 @@
+*{
+    font-family: 'Merriweather', serif;
+}
+body{
+    
+    background-image: url('image/back.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+}
+.left{
+    color: antiquewhite;
+    display: inline-block;
+    border: 3px solid red;
+    position: absolute;
+    margin: 0px 25px;
+    font-size: 15px;
+}
+.left img{
+    width: 70px;
+    height: 50px;
+    padding: 3px;
+    filter: invert(100%);
+    margin: auto 7px; 
+}
+.mid{
+   /* border: 3px solid rgb(21, 255, 0);   */
+    display: block;
+    width: 50%;
+    margin: 29px auto;
+}
+.navbar li{
+    display: inline-block;
+    list-style: none;
+}
+.navbar li a{
+    padding: 34px 24px;
+    text-decoration: none;
+    color: white;
+}
+.navbar li a:hover{
+    color: yellow;
+    text-decoration: underline;
+}
+.navbar li a:active{
+    color: red;
+}
+.right{
+  /*  border: 3px solid rgb(7, 160, 248); */
+    display: inline-block;
+    position: absolute;
+    right: 34px;
+    top : 34px;
+}
+.right button{
+    cursor: pointer;
+    padding: 8px;
+    margin: 5px 5px;
+    font:bold;
+    background-color: black;
+    border-radius: 5px;
+    color: antiquewhite;
+  
+}
+.right button:hover{
+    color: yellow;
+    text-decoration: underline;
+}
+/* .container{
+    border: 3px solid blue;
+    padding: 10px;
+    margin: 35px auto;
+    color: wheat;
+    width: 300px;
+    position: relative;
+    right: 20px;
+} */
+.infotable{
+    border: 3px solid whitesmoke;
+    border-radius: 10px;
+    color: whitesmoke;
+    width: 600px;
+    height: 500px;
+    position: absolute;
+    right: 25px;
+    margin: 50px auto;
+}
+.infotable h2{
+    text-align: center;
+    margin: 10px;
+    text-decoration: underline;
+}
+.infotable h2:hover{
+    color: yellow;
+    text-decoration: wavy;   
+}
+.infotable table{
+    color: whitesmoke;
+    margin: 60px auto;
+}
+.infotable table .submit{
+    width: 130px;
+    margin: 10px auto;
+    padding: 5px;
+    background-color: black;
+    color: whitesmoke;
+    border: 2px solid white;
+    border-radius: 10px;
+}
